@@ -15,8 +15,8 @@
     Department<form:input path="department"/>
     <br><br>
     Salary<form:input path="salary"/>
-    <br><br>
-    <input type="submit" value="ok">
+    <br>
+    <input type="submit" value="Ok">
 </form:form>
 
 </body>
