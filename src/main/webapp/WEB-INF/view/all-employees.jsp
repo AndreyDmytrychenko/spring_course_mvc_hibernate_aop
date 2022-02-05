@@ -1,12 +1,16 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<style>
+    <%@include file='css/stile.css' %>
+</style>
+
 <html>
 
 <body>
 
 <h1>All employees</h1>
 <br>
-<table>
+<table class="table">
     <tr>
         <th>Name</th>
         <th>Surname</th>
@@ -39,7 +43,7 @@
 
 <br>
 
-<input type="button" value="Add" onclick="window.location.href='addNewEmployee'">
+<input type="button" value="Add" onclick="window.location.href='addNewEmployee'"/>
 
 </body>
 </html>
